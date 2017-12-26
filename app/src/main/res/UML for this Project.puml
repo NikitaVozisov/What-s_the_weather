@@ -1,0 +1,10 @@
+@startuml
+participant MainActivity
+participant
+
+Me ->Alice:Hey
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+ALice->Me:iohadgoinaon
+
+@enduml
